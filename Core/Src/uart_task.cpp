@@ -4,8 +4,6 @@
 
 #include "uart_task.h"
 
-#include <string.h>
-
 uint8_t rx_data[256];
 
 void uartInit()

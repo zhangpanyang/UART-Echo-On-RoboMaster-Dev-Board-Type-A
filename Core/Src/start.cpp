@@ -4,7 +4,6 @@
 
 #include "start.h"
 #include "main.h"
-#include "usart.h"
 #include "uart_task.h"
 
 uint8_t message[] = "RoboMaster Is Good!\n";
