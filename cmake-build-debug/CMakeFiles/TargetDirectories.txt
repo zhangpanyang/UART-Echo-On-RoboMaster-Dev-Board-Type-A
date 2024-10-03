@@ -1,0 +1,3 @@
+E:/Work/EmbeddedProjects/ProgramingProjects/STM32UARTTest/cmake-build-debug/CMakeFiles/STM32UARTTest.elf.dir
+E:/Work/EmbeddedProjects/ProgramingProjects/STM32UARTTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Work/EmbeddedProjects/ProgramingProjects/STM32UARTTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
