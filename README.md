@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This project works on the **RoboMaster Development Board Type-A**. It receives message from **USART6**, and **send it back**. When this happens, the green LED on the board will flash once.
+This project works on the **RoboMaster Development Board Type-A**. It receives message from `USART6`, and **send it back**. When this happens, the green LED on the board will flash once.
 
 ### Details
 
