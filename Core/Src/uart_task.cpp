@@ -4,6 +4,8 @@
 
 #include "uart_task.h"
 
+#include <string.h>
+
 uint8_t rx_data[256];
 
 void uartInit()
@@ -16,7 +18,7 @@ void uartInit()
 
 void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
 {
-	HAL_UART_Transmit_IT(&huart6, rx_data, sizeof(rx_data));
+	HAL_UART_Transmit_IT(&huart6, rx_data, Size);
 	HAL_UARTEx_ReceiveToIdle_DMA(&huart6, rx_data, sizeof(rx_data));
 
 	HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_RESET);

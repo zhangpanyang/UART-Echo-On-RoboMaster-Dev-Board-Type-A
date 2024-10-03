@@ -35,4 +35,6 @@ stm32uarttest/uart_task.o: ..\Core\Src\uart_task.cpp \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h \
-  ..\Core\Inc\usart.h ..\Core\Inc\tim.h
+  ..\Core\Inc\usart.h ..\Core\Inc\tim.h \
+  C:\MyProgramFiles\Engineering\Embedded\Keil_v5\ARM\ARMCLANG\Bin\..\include\libcxx\string.h \
+  C:\MyProgramFiles\Engineering\Embedded\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h
