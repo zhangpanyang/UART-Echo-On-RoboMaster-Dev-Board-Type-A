@@ -3,8 +3,6 @@
 //
 
 #include "uart_task.h"
-#include "main.h"
-#include "usart.h"
 
 uint8_t rx_data[1];
 
@@ -20,6 +18,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 	{
 		HAL_UART_Transmit(&huart8, rx_data, sizeof(rx_data), 100);
 		HAL_UART_Receive_IT(&huart8, rx_data, sizeof(rx_data));
+		HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, GPIO_PIN_RESET);
 	}
 }
 

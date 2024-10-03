@@ -6,6 +6,8 @@
 #define UART_TASK_H
 
 #include "main.h"
+#include "usart.h"
+#include "tim.h"
 
 void uartInit();
 
