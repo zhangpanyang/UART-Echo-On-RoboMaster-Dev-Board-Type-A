@@ -23,27 +23,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c1e55ff-e6f5-48a4-be4f-fc58faa0e6d5" name="更改" comment="Dead IDLE">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8c1e55ff-e6f5-48a4-be4f-fc58faa0e6d5" name="更改" comment="Changed to usart6">
       <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/dma.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/dma.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/uart_task.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/uart_task.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvguix.Sunny" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvguix.Sunny" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.build_log.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/dma.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/dma.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/gpio.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_it.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/usart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvoptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvprojx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/STM32UARTTest.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/STM32UARTTest.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727958382514</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Changed to usart6">
+      <option name="closed" value="true" />
+      <created>1727958677094</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727958677094</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +268,7 @@
     <MESSAGE value="Enabled DMA" />
     <MESSAGE value="Changed recieve to DMA" />
     <MESSAGE value="Dead IDLE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dead IDLE" />
+    <MESSAGE value="Changed to usart6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed to usart6" />
   </component>
 </project>
