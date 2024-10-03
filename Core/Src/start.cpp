@@ -11,6 +11,8 @@ uint8_t message[] = "RoboMaster Is Good!\n";
 
 void startup()
 {
+	HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_SET);
 	uartInit();
 	while (1)
 	{
