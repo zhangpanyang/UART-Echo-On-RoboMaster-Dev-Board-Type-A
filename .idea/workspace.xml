@@ -23,18 +23,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c1e55ff-e6f5-48a4-be4f-fc58faa0e6d5" name="更改" comment="Fix bugs">
+    <list default="true" id="8c1e55ff-e6f5-48a4-be4f-fc58faa0e6d5" name="更改" comment="Fix the bug that remaining chars in the buffer pollutes the transmission">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/uart_task.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/uart_task.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvguix.Sunny" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvguix.Sunny" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.axf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.build_log.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.hex" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727960269674</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fix the bug that remaining chars in the buffer pollutes the transmission">
+      <option name="closed" value="true" />
+      <created>1727960774545</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1727960774545</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +300,7 @@
     <MESSAGE value="Enabled interrupt for usart6" />
     <MESSAGE value="HAL_UARTEx_RxEventCallback" />
     <MESSAGE value="Fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
+    <MESSAGE value="Fix the bug that remaining chars in the buffer pollutes the transmission" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix the bug that remaining chars in the buffer pollutes the transmission" />
   </component>
 </project>
