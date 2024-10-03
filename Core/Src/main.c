@@ -89,8 +89,8 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_DMA_Init();
-  MX_UART8_Init();
   MX_TIM6_Init();
+  MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
 
   startup();
