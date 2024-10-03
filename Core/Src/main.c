@@ -18,12 +18,15 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+
+#include <string.h>
+
 #include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "start.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -88,6 +91,8 @@ int main(void)
   MX_GPIO_Init();
   MX_UART8_Init();
   /* USER CODE BEGIN 2 */
+
+  startup();
 
   /* USER CODE END 2 */
 
