@@ -429,6 +429,16 @@
               <FileType>5</FileType>
               <FilePath>..\Core\Src\start.h</FilePath>
             </File>
+            <File>
+              <FileName>uart_task.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\uart_task.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>uart_task.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Core\Src\uart_task.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

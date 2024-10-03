@@ -6,6 +6,7 @@
 "stm32uarttest\stm32f4xx_it.o"
 "stm32uarttest\stm32f4xx_hal_msp.o"
 "stm32uarttest\start.o"
+"stm32uarttest\uart_task.o"
 "stm32uarttest\stm32f4xx_hal_tim.o"
 "stm32uarttest\stm32f4xx_hal_tim_ex.o"
 "stm32uarttest\stm32f4xx_hal_uart.o"
