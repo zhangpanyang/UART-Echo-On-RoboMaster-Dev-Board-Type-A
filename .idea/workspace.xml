@@ -23,7 +23,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c1e55ff-e6f5-48a4-be4f-fc58faa0e6d5" name="更改" comment="Enabled interrupt for usart6">
+    <list default="true" id="8c1e55ff-e6f5-48a4-be4f-fc58faa0e6d5" name="更改" comment="HAL_UARTEx_RxEventCallback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/uart_task.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/uart_task.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.axf" afterDir="false" />
@@ -33,10 +33,6 @@
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32UARTTest.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32UARTTest.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727958807431</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="HAL_UARTEx_RxEventCallback">
+      <option name="closed" value="true" />
+      <created>1727959925608</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1727959925608</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +289,7 @@
     <MESSAGE value="Dead IDLE" />
     <MESSAGE value="Changed to usart6" />
     <MESSAGE value="Enabled interrupt for usart6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enabled interrupt for usart6" />
+    <MESSAGE value="HAL_UARTEx_RxEventCallback" />
+    <option name="LAST_COMMIT_MESSAGE" value="HAL_UARTEx_RxEventCallback" />
   </component>
 </project>

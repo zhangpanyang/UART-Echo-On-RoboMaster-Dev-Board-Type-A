@@ -11,23 +11,17 @@ void uartInit()
 	__HAL_UART_ENABLE_IT(&huart6, UART_IT_IDLE);
 
 	HAL_UARTEx_ReceiveToIdle_DMA(&huart6, rx_data, sizeof(rx_data));
-	// HAL_UART_Receive_DMA(&huart6, rx_data, sizeof(rx_data));
 	HAL_UART_Transmit(&huart6, (uint8_t*)"init\n", 5, 100);
 }
 
 void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
 {
-	HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, GPIO_PIN_RESET);
-	if(__HAL_UART_GET_FLAG(&huart6, UART_FLAG_IDLE) != RESET)
-	{
-		__HAL_UART_CLEAR_FLAG(&huart6, UART_FLAG_IDLE);
-		HAL_UART_Transmit_IT(&huart6, rx_data, sizeof(rx_data));
-		HAL_UART_Receive_DMA(&huart6, rx_data, sizeof(rx_data));
+	HAL_UART_Transmit_IT(&huart6, rx_data, sizeof(rx_data));
+	HAL_UARTEx_ReceiveToIdle_DMA(&huart6, rx_data, sizeof(rx_data));
 
-		HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_RESET);
-		__HAL_TIM_SET_COUNTER(&htim6, 0);
-		HAL_TIM_Base_Start_IT(&htim6);
-	}
+	HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_RESET);
+	__HAL_TIM_SET_COUNTER(&htim6, 0);
+	HAL_TIM_Base_Start_IT(&htim6);
 }
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
