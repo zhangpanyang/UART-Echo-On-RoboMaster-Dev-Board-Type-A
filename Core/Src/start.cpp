@@ -7,11 +7,13 @@
 #include "main.h"
 #include "usart.h"
 
+uint8_t message[] = "RoboMaster Is Good!\n";
+
 void startup()
 {
 	while (1)
 	{
 		HAL_Delay(1000);
-		HAL_UART_Transmit(&huart8, (uint8_t *)"a", 1, 100);
+		HAL_UART_Transmit(&huart8, message, sizeof(message)-1, 100);
 	}
 }

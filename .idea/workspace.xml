@@ -23,34 +23,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c1e55ff-e6f5-48a4-be4f-fc58faa0e6d5" name="更改" comment="premier">
-      <change afterPath="$PROJECT_DIR$/Core/Src/start.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/start.h" afterDir="false" />
+    <list default="true" id="8c1e55ff-e6f5-48a4-be4f-fc58faa0e6d5" name="更改" comment="premiere">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvoptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvprojx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STM32UARTTest.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/STM32UARTTest.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-14dca609adae9d425c3e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-877eaa1856214cd5f7fb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-577b44d6cbf4e9dd34df.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-03T07-32-51-0595.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-STM32UARTTest.elf-Debug-5328307b1c7f1c1c2a10.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/start.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/start.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.axf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.build_log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.hex" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/start.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/start.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727940346410</updated>
-      <workItem from="1727940348096" duration="2413000" />
+      <workItem from="1727940348096" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="premier">
       <option name="closed" value="true" />
@@ -128,14 +110,34 @@
       <option name="project" value="LOCAL" />
       <updated>1727940849727</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="premiere">
+      <option name="closed" value="true" />
+      <created>1727943039470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727943039470</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="premier" />
-    <option name="LAST_COMMIT_MESSAGE" value="premier" />
+    <MESSAGE value="premiere" />
+    <option name="LAST_COMMIT_MESSAGE" value="premiere" />
   </component>
 </project>
