@@ -25,49 +25,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8c1e55ff-e6f5-48a4-be4f-fc58faa0e6d5" name="更改" comment="Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/start.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/start.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/uart_task.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/uart_task.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvguix.Sunny" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvguix.Sunny" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvoptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvprojx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.axf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.build_log.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.hex" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.lnp" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.lnp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/gpio.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/gpio.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/gpio.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/main.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/main.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/start.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/start.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/start.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/start.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_cortex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_cortex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_dma.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_dma.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_dma_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_dma_ex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_exti.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_exti.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_flash.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_flash.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_flash_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_flash_ex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_flash_ramfunc.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_flash_ramfunc.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_gpio.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_gpio.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_msp.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_msp.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_pwr.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_pwr.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_pwr_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_pwr_ex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_rcc.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_rcc.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_rcc_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_rcc_ex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_tim.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_tim.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_tim.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_tim_ex.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_tim_ex.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_tim_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_tim_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_uart.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_hal_uart.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_it.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_it.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/stm32f4xx_it.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/system_stm32f4xx.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/system_stm32f4xx.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/uart_task.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/usart.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/usart.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32UARTTest.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/STM32UARTTest.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727947635455</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Test">
+      <option name="closed" value="true" />
+      <created>1727948727943</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727948727943</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
