@@ -23,15 +23,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c1e55ff-e6f5-48a4-be4f-fc58faa0e6d5" name="更改" comment="Bug">
+    <list default="true" id="8c1e55ff-e6f5-48a4-be4f-fc58faa0e6d5" name="更改" comment="Changed transmit to IT way">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/uart_task.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/uart_task.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvguix.Sunny" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvguix.Sunny" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvoptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest.uvprojx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.build_log.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32UARTTest/STM32UARTTest_STM32UARTTest.dep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32UARTTest.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/STM32UARTTest.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-863d34eeea2b7612fe6b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-03T09-48-32-0416.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-STM32UARTTest.elf-Debug-42eeb2df9802ff9fa9f8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.29.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727949608154</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Changed transmit to IT way">
+      <option name="closed" value="true" />
+      <created>1727954860180</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727954860180</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +236,7 @@
     <MESSAGE value="bug" />
     <MESSAGE value="Test" />
     <MESSAGE value="Bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug" />
+    <MESSAGE value="Changed transmit to IT way" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed transmit to IT way" />
   </component>
 </project>
