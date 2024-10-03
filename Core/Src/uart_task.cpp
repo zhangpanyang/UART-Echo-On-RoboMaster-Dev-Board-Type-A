@@ -6,7 +6,7 @@
 #include "main.h"
 #include "usart.h"
 
-uint8_t rx_data[16];
+uint8_t rx_data[1];
 
 void uartInit()
 {
@@ -16,10 +16,9 @@ void uartInit()
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-	// if (huart == &huart8)
+	if (huart == &huart8)
 	{
-		HAL_UART_Transmit(&huart8, (uint8_t*)"a", 1, 100);
-		// HAL_UART_Transmit(&huart8, rx_data, sizeof(rx_data), 100);
+		HAL_UART_Transmit(&huart8, rx_data, sizeof(rx_data), 100);
 		HAL_UART_Receive_IT(&huart8, rx_data, sizeof(rx_data));
 	}
 }
