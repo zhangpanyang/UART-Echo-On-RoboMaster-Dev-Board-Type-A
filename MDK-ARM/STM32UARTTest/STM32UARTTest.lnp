@@ -4,6 +4,7 @@
 "stm32uarttest\uart_task.o"
 "stm32uarttest\main.o"
 "stm32uarttest\gpio.o"
+"stm32uarttest\dma.o"
 "stm32uarttest\tim.o"
 "stm32uarttest\usart.o"
 "stm32uarttest\stm32f4xx_it.o"
